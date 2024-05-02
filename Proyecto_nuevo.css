@@ -35,6 +35,7 @@ body {
         border: none;
         border-radius: 3px;
         cursor: pointer;
+
     }
     input[type="submit"]:hover {
         background-color: #0056b3;
@@ -60,24 +61,3 @@ body {
     li {
         margin-bottom: 5px;
     }
-</style>
-</head>
-<body>
-    <h1>Arte del Siglo XX</h1>
-    <form>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" placeholder="Nombre completo">
-        <br>
-        <input type="submit" value="Enviar">
-    </form>
-    <hr>
-    <div>
-        <h2>Obras destacadas</h2>
-        <ul>
-            <li>Pablo Picasso - Les Demoiselles d'Avignon</li>
-            <li>Salvador Dalí - La persistencia de la memoria</li>
-            <li>Frida Kahlo - Las dos Fridas</li>
-        </ul>
-    </div>
-</body>
-</html>
